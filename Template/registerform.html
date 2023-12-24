@@ -1,0 +1,19 @@
+{% include "header.html" %}
+
+
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="content">
+    <div class="heading">
+        <h2><b>Registration</b></h2>
+    </div>
+    <div class="details">
+        <form  method="POST" autocomplete="off">
+            {% csrf_token %}
+            {{form|crispy}}
+            <input type="submit" value="Submit" id="button">
+        </form>
+        
+    </div>
+</div
+{% endblock %} 
