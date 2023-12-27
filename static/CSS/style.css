@@ -1,0 +1,65 @@
+.content{
+    width: 600px;
+    position: relative;
+    left: 25%;
+    background-color: rgb(192, 181, 181);
+    box-shadow: 0px 0px 8px 3px rgb(99, 86, 86);
+    border-radius: 20px;
+}
+.heading{
+    font-family: "Algerian";
+    margin-top: 20px;
+    padding-left: 190px;
+    /* padding: 20px; */
+}
+.details{
+    /* border: 2px solid black; */
+    /* width: 600px; */
+    /* position: relative;
+    left: 25%; */
+    padding: 20px;
+    color: blue;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+#button{
+    border: none;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#button:hover{
+    background-color:rgb(40, 40, 241);
+    
+}
+
+/* Result page */
+.table{
+    width: 500px;
+}
+.table th{
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 22px;
+}
+#head{
+    background-color: rgb(179, 179, 190);
+    border: 2px solid rgb(0, 0, 0);
+}
+.table td{
+    border: 1px solid black;
+}
+#data{
+    background-color: rgb(179, 179, 190);
+    font-family: serif;
+}
+#heading{
+    color: blue;
+    font-family: 'sans-serif';
+}
