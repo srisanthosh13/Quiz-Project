@@ -1,0 +1,27 @@
+{% include "header.html" %}
+ 
+{% block content %}
+    <h1 id="heading"><center><b>Candidate details</b></center></h1>
+    <br>
+    <table class="table">
+        <thead>
+            <tr id="head">
+                <th>S.no</th>
+                <th>Name</th>
+                <th>Mobile Number</th>
+                <th>Email ID</th>
+                <!-- <th>Your Score</th> -->
+            </tr>
+        </thead>
+        <tbody>
+            {% for myscore in scores %}
+                <tr id="data">
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ myscore.Name }}</td>
+                    <td>{{ myscore.Contact }}</td>
+                    <td>{{ myscore.Mail }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
